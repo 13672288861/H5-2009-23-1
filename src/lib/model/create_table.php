@@ -1,20 +1,22 @@
 <?php
 require('./_connect.php');
 
-//书写sql语句
+// 书写sql语句
 $sql = "CREATE TABLE good (
-			`Id` int(11) NOT NULL AUTO_INCREMENT,
+			Id int(11) NOT NULL AUTO_INCREMENT,
 			uname VARCHAR(300) NOT NULL,
-			img VARCHAR(30) NOT NULL,
-			goodname VARCHAR(30) NOT NULL,
+			img VARCHAR(300) NOT NULL,
+			goodname VARCHAR(300) NOT NULL,
 			sv VARCHAR(30) NOT NULL,
 			num VARCHAR(30) NOT NULL,
+			PRIMARY KEY (`Id`),
 			submission_date TIMESTAMP	
 )";
 $sql1 = "CREATE TABLE html (
-	`Id` int(11) NOT NULL AUTO_INCREMENT,
+	Id int(11) NOT NULL AUTO_INCREMENT,
 	zhang VARCHAR(300) NOT NULL,
 	pas VARCHAR(300) NOT NULL,
+	PRIMARY KEY (`Id`),
 	submission_date TIMESTAMP	
 )";
 $result = mysqli_query($conn,$sql);
