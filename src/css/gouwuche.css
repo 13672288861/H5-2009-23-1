@@ -1,0 +1,179 @@
+*{
+    margin: 0;padding: 0;
+}
+.current{
+    margin: 0 auto;width: 1200px;
+}
+.nav-only{
+    height: 120px;
+}
+a{
+    text-decoration:none;color:#666;
+}
+li{
+    list-style: none;
+}
+nav li:hover{
+    color: brown;
+}
+#uname hover{
+    color: burlywood;
+}
+nav{
+    height: 120px;background-color: white;line-height: 120px;font-size: 14px;
+}
+nav img{
+    float: left;transform: scale(0.6);transform-origin:bottom;
+}
+.nav-only-left{
+    float: left;display: flex;justify-content: space-around;width: 500px;
+}
+nav ul>li{
+    display: inline-block;position: relative;
+}
+.nav-only-right-first-span img{
+    position: absolute;top: 20px;left:-40px;width: 150px;height: 150px;display: none;
+}
+.nav-only-right{
+    float: right;display: flex;justify-content: space-around;width: 350px;
+}
+.nav-only-right .gouwuche{
+   font-size: 24px;
+}
+.nav-only-right .down{
+    padding-left: 2px;
+}
+.nav-only-right ol{
+    padding: 0;position: absolute;z-index: 20;left: -10px;overflow: hidden;top: 80px;height: 0;width: 100px;background-color: wheat;text-align: center;
+}
+.nav-only-right ol>li{
+    height: 30px;line-height: 30px;cursor: pointer;
+}
+.nav-only-right .mes ol{
+    width: 50px;
+}
+#uname .loginout{
+    width: 50px;
+}
+.location{
+    width: 80px;text-align: right;
+}
+/* .main-only{
+    min-height: 808px;
+} */
+.main-only-1{
+    position: relative;top: 30px;line-height: 40px;font-size: 16px;text-align: center;color: pink;
+}
+.main-only-1 ul{
+    display: flex;justify-content: space-between;width: 1200px;height: 40px;
+} 
+.main-only-1 .li12{
+    width: 26%;
+}
+.main-only-1 .li345{
+    width: 16%;
+}
+.main-only-1>ul{
+    border: 1px solid blanchedalmond;
+}
+.main-box{
+   padding: 0 50px;margin-top: 30px;border: 1px solid black;color: black;font-size: 14px;line-height: 24px;text-align: right;position: relative;
+}
+.main-box .uls{
+    height: 134px;width:1100px;
+}
+.main-box .ul{
+    border-top: 1px dotted skyblue;
+}
+.main-only-1 ul li img{
+    width: 80px;height: 80px;float: left;margin-right: 20px;
+}
+.main-box ul .lis1{
+    text-align: left;padding: 30px 0 30px 0;
+}
+.main-box ul .lis2 {
+    line-height: 134px;
+}
+.main-box-bottom{
+    width: 1078px;
+    background: #FBFBFB;
+    border: 1px solid #E1E1E1;
+    padding: 26px 60px 32px 60px;
+    margin: 26px;
+    margin: 20px 0 50px 0;
+}
+#select{
+    height: 30px;color: black;border: 1px solid pink;
+}
+.main-box ul .lis3{
+    line-height: 134px;padding-right: 70px;
+}
+.main-box ul .lis4{
+    line-height: 134px;
+}
+.main-box ul .lis4 input{
+    width: 20px;height: 20px;
+}
+.main-box ul .lis5{
+    line-height: 134px;padding-right: 30px;
+}
+#boxdata{
+    border-top: 2px solid pink;display: flex;justify-content: space-between;flex-wrap: wrap;
+}
+.main-box-data .ul-data{
+    width: 25%;height: 134px;display: block;
+}
+.main-box-data .ul-data li{
+    width: 100%;
+}
+.main-box-bottom{
+    text-align: right;color: black;
+}
+.main-box-bottom-left{
+    float: left;cursor: pointer;display: inline-block;border: 1px solid pink;background-color: cadetblue;color: pink;padding:2px 12px;
+}
+.main-box-bottom-right{
+    display: inline-block;text-align: right;width: 200px;
+}
+.money{
+    color: coral;
+}
+.cart{
+    border-bottom:1px burlywood solid;
+}
+.gouwuche:hover{
+    cursor: pointer;
+}
+footer{
+    background:url(../images/30.jpg);height: 450px;font-size: 12px;
+}
+.footer-top{
+    color: whitesmoke;margin:0 auto;width: 1300px;height: 360px;padding-top: 50px;display: flex;justify-content: space-between;
+}
+.footer-bottom{
+    text-align: center;margin:0 auto;height: 39px;border-top: 1px solid white;line-height: 39px;color: whitesmoke;
+}
+.footer-light{
+    width: 200px;
+}
+#f2 .footer-light{
+    width: 400px;margin: 0;
+}
+.footer-col-brand{
+    line-height: 20px;
+}
+.footer-col-brand>p{
+    font-size: 14px;color: white;padding-bottom: 30px;
+}
+.footer-col-brand a{
+    margin-bottom: 5px;display: inline-block;position: relative;top:-20px;
+}
+a{
+    cursor: pointer;
+}
+.footer-col p:first-of-type{
+    margin-bottom: 20px;
+}
+.footer-col-nav a{
+    line-height: 24px;
+}

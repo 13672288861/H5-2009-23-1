@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登陆注册</title>
+    <link rel="stylesheet" href="../css/zhuce.css">
+    <link rel="stylesheet" type="text/css" href="../font/iconfont.css">
+</head>
+<body>
+    <nav>
+        <div class="current nav-only">
+            <img src="../images/logo.png" alt="">
+            <ul class="nav-only-left">
+                <li><a href="../pages/index.html">首页</a></li>
+                <li><a href="./cakedetail.html">蛋糕详情页</a></li>
+                <li>面包</li>
+                <li>冰淇淋</li>
+                <li><a href="./details.html">（详情页加data.json）</a></li>
+                <li>全国送</li>
+                <li><a href="./timerout.html">限时抢购</a></li>
+            </ul>
+            <ul class="nav-only-right">
+                <li>
+                    APP下载
+                    <span class="nav-only-right-first-span"><img src="../images/xiazaiapp.png" alt=""></span>
+                </li>
+                <li class="location"><span>深圳</span>
+                    <span class="iconfont down">&#xe665;</span>
+                    <ol>
+                        <li>中国大陆</li>
+                        <li>香港</li>
+                        <li>宜春</li>
+                        <li>南昌</li>
+                        <li>中国大陆</li>
+                        <li>上海</li>
+                        <li>北京</li>
+                    </ol>
+                </li>
+                <li id="uname"><a href="../pages/login.html">登录</a>/<a href="#">注册</a></li>
+                <li class="mes">
+                    <span>消息</span>
+                    <ol>
+                        <li><a href="#">添加</a></li>
+                        <li><a href="#">物流</a></li>
+                    </ol>
+                </li> 
+                <li><a href="#" id="gowu" class="iconfont gouwuche">&#xe610;</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="main-only current">
+            <div class="main-only-1">
+                <p>用户注册</p>
+                <form id="zhang" action="#" method="POST">
+                    <input class="in1" type="text" placeholder="亲输入手机号" name="usename" required><br>
+                    <input class="in1 pas" type="password" placeholder="亲输入密码" name="passward" required><br>
+                    <input class="in1 pas" type="password" placeholder="确认密码" name="passward"  required><br>
+                    <input class="in2" type="text" placeholder="亲输入验证码" name="yanzheng" ><span>获取验证码</span><br>
+                    <select class="in2" name="年" id="select">
+                        <optgroup>
+                            <option value="年">年</option>
+                            <option value="">1998</option>
+                            <option value="">2000</option>
+                            <option value="">2001</option>
+                            <option value="">2002</option>
+                            <option value="">2003</option>
+                            <option value="">2004</option>
+                            <option value="">2005</option>
+                            <option value="">2006</option>
+                            <option value="">2007</option>
+                        </optgroup>  
+                    </select>
+                    <select  class="in2" name="月">
+                        <optgroup>
+                            <option value="">1月</option>
+                            <option value="">2月</option>
+                            <option value="">3月</option>
+                            <option value="">4月</option>
+                            <option value="">5月</option>
+                            <option value="">6月</option>
+                            <option value="">7月</option>
+                            <option value="">8月</option>
+                            <option value="">9月</option>
+                            <option value="">10月</option>
+                            <option value="">11月</option>
+                            <option value="">12月</option>
+                        </optgroup> 
+                    </select>
+                    <select  class="in2" name="日">
+                        <optgroup>
+                            <option value="">1号</option>
+                            <option value="">2号</option>
+                            <option value="">3号</option>
+                            <option value="">4号</option>
+                            <option value="">5号</option>
+                            <option value="">6号</option>
+                            <option value="">7号</option>
+                            <option value="">8号</option>
+                            <option value="">9号</option>
+                            <option value="">10号</option>
+                            <option value="">12号</option>
+                            <option value="">11号</option>
+                            <option value="">12号</option>
+                            <option value="">13号</option>
+                            <option value="">14号</option>
+                            <option value="">15号号</option>
+                            <option value="">16号</option>
+                            <option value="">17号</option>
+                            <option value="">18号</option>
+                            <option value="">19号</option>
+                            <option value="">20号</option>
+                            <option value="">21号</option>
+                            <option value="">22号</option>
+                            <option value="">23号</option>
+                            <option value="">24号</option>
+                            <option value="">25号</option>
+                            <option value="">26号</option>
+                            <option value="">27号</option>
+                            <option value="">28号</option>
+                            <option value="">29号</option>
+                            <option value="">30号</option>
+                            <option value="">31号</option>
+                            
+                        </optgroup> 
+                    </select>
+                    <input class="sub" type="submit" value="注册" name="zhuce"><br>
+                    同意协议：<input type="checkbox" checked required>
+                    <a href="/article-agreement-36.html">21客会员协议</a>和
+                    <a href="/article-policy-35.html">隐私保护政策</a>
+    
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-top">
+            <div class="footer-col footer-col-brand">
+                <img class="footer-logo" src="../images/23.png" height="36" width="96" alt="21cake"/><br>
+                <img class="footer-solgan" src=""/>
+                <p>始终为人类<br>提供优秀食物</p>
+                <a href="http://weibo.com/21cake" target="_blank">
+                    <img src="../images/24.png">
+                </a><br>
+                <a class="footer-icon" data-ewmsrc="//static.21cake.com/themes/site/img/erweima.png">
+                    <img src="../images/25.png">
+                </a><br>
+                <a class="footer-icon" data-ewmsrc="//static.21cake.com/themes/site/img/footer-erweima.png">
+                    <img src="../images/26.png">
+                </a><br>
+                <div class="footer-erweima footer"></div>
+            </div>
+            <div class="footer-col footer-col-nav">
+                <p class="footer-col-title">关于我们</p>
+                <p>联系我们</p>
+                <p class="footer-light">
+                    订购专线：400 650 2121
+                    （服务时间 08:00–22:00）；<br />
+                    企业团购热线：021-37768380；<br />
+                    客服电话：021-23099721（全国）；<br />
+                    kefu@21cake.com（邮箱）；
+                </p>
+                <a href="#">订购帮助</a><br>
+                <a href="#">企业合作</a><br>
+                <a href="#">生产经营资质</a><br>
+                <a href="#">公告专区</a><br>
+            </div>
+            <div class="footer-col footer-col-tips">
+                <p class="footer-col-title">订购时间</p>
+                <p class="footer-light">
+                    杭州/广州：提前5小时预订；<br />
+                    北京：提前6小时预订；<br />
+                    上海：提前5.5-6小时预订；<br />
+                    天津/苏州/无锡/深圳：提前8小时预订（部分偏远地区除外，当日22点以后订单，于次日8点开始审核）
+                    <span>当日蛋糕配送截止下单时间：北京/上海：16:30；杭州/广州：14:00；天津：10:30；苏州/无锡/深圳：11:00</span>
+                </p>
+            </div>
+            <div id="f2" class="footer-col footer-col-about">
+                <p class="footer-col-title">网络运营</p>
+                <p class="footer-light">
+                    网站注册公司名称: 北京廿一客食品有限公司 地址: 北京市北京经济技术开发区兴海二街5号院3号楼<br>
+                    网站运营：廿一客（上海）电子商务有限公司 地址：上海市松江区新效支路518号<br>
+                    上海廿一客食品有限公司分公司 地址：上海市松江区新效支路518号<br>
+                    杭州廿一客食品有限公司 地址：杭州市滨江区秋溢路500号<br>
+                    广州廿一客食品有限公司 地址：广州市南沙区东涌镇鱼窝头大道段   <br>   
+                    北京廿一客食品有限公司 地址：北京市北京经济技术开发区兴海二街5号院<br>
+                    深圳廿一客贸易有限公司 地址：深圳市福田区星河世纪大厦A栋1717  <br>       
+                    天津廿一客食品有限公司 地址：天津市河西区麦收大厦2-2004<br>
+                    广州廿一客食品贸易有限公司 地址：广州市南沙区东涌镇鱼窝头大道段 <br>
+                    举实（上海）食品有限公司 地址：上海市松江区新效支路518号
+                </p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            Copyright© 21Cake蛋糕官网商城 2007-2020, 版权所有 京ICP备14006254号-1 京公网安备 11030102010682号
+        </div>
+    </footer>
+</body>
+<script src="../js/header.js"></script>
+<script>
+    function Fo(){
+        this._form=document.getElementById("zhang");
+        this._pas=document.querySelectorAll(".pas");
+        this._button=document.getElementsByClassName("sub")[0];
+        Fo.prototype.init=function(){
+            var index=0,that=this;
+            function ajaxPost(url, json) {
+                var xhr = new XMLHttpRequest()
+                xhr.open("POST", url)
+                xhr.setRequestHeader('content-type', 'application/x-www-form-urlencoded')
+                xhr.send(json)
+                xhr.onreadystatechange = function(){
+                    console.log(xhr.responseText);
+                    if (xhr.readyState == 4 && (xhr.status >= 200 && xhr.status < 300)) {
+                        console.log(xhr.responseText);
+                        if(xhr.responseText=="true"){
+                            location.assign("./login.html")
+                        }else if(xhr.responseText=="false"){
+                            console.log(1);
+                            that._button.value="注册失败";
+                        }else{
+                            // console.log(xhr.responseText);
+                            that._button.value=xhr.responseText
+                        }
+                    }
+                }
+            }
+            for(var i=0;i<2;i++)
+            this._pas[i].onblur=()=>{
+                if(this._pas[0].value.length>=6){
+                    if(this._pas[0].value===this._pas[1].value){
+                    this._button.removeAttribute('disabled')
+                    this._button.value="注册"
+                    }else{
+                        this._button.disabled="flase";
+                        this._button.value="两次密码不一致"
+                    }
+                }else{
+                    this._button.value="密码长度不够 请输入6为以上数字或字母"
+                }
+                
+            }
+            // this._button.onclick = function () {
+            //     // $.ajax({
+            //     //     url:"./login.php?usename=qweqwe&pas=123123",
+            //     //     dataType:"json",
+            //     //     success(res){
+            //     //         console.log(res);
+            //     //     },error(err){
+            //     //         console.log(err);
+            //     //     }
+            //     // })
+                
+            //     return false
+            // } 
+            this._button.onclick=function(){
+                ajaxPost("../lib/zhuce.php", `${this.parentNode.children[0].name} = ${this.parentNode.children[0].value}&${this.parentNode.children[2].name} = ${this.parentNode.children[2].value}`)
+                //        
+                return false
+            }
+        }
+        this.init()
+    }
+    var aa=new Fo()
+</script>
+</html>

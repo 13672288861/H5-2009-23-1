@@ -1,0 +1,177 @@
+*{
+    margin: 0;padding: 0;
+}
+i{
+    font-style: normal;
+}
+.current{
+    margin: 0 auto;width: 1200px;
+}
+.nav-only{
+    height: 120px;
+}
+a{
+    text-decoration:none;color:#666;
+}
+li{
+    list-style: none;
+}
+nav li:hover{
+    color: brown;cursor: pointer;
+}
+nav{
+    height: 120px;background-color: white;line-height: 120px;font-size: 14px;
+}
+nav img{
+    float: left;transform: scale(0.6);transform-origin:bottom;
+}
+.nav-only-left{
+    float: left;display: flex;justify-content: space-around;width: 500px;
+}
+nav ul>li{
+    display: inline-block;position: relative;
+}
+.nav-only-right{
+    float: right;display: flex;justify-content: space-around;width: 350px;
+}
+.nav-only-right .gouwuche{
+   font-size: 24px;
+}
+.nav-only-right .down{
+    padding-left: 2px;
+}
+.nav-only-right ol{
+    padding: 0;position: absolute;left: -10px;z-index: 20;;overflow: hidden;top: 80px;height: 0;width: 100px;background-color: wheat;text-align: center;
+}
+/* .nav-only-right-first-span:hover img{
+   display: inline-block;
+} */
+.nav-only-right-first-span img{
+    position: absolute;top: 20px;left:-40px;width: 150px;height: 150px;display: none;
+}
+.nav-only-right ol>li{
+    height: 30px;line-height: 30px;cursor: pointer;
+}
+.nav-only-right .mes ol{
+    width: 50px;
+}
+#uname .loginout{
+    width: 100%;
+}
+#uname a:hover{
+    color: burlywood;
+}
+.location{
+    width: 80px;text-align: right;
+}
+.banner{
+    background: url(../images/1.jpg) no-repeat;height:717px;
+}
+.banner span{
+    display: inline-block;border-radius:50%;width: 10px;height: 10px;border: 1px solid black;margin: 0 10px;
+}
+.spans{
+    background-color: blue;
+}
+.banner>div{
+    position: absolute;top:760px;left: 50%;
+}
+.main-only{
+    width:1200px;
+}
+.main-only article{
+    display: flex;justify-content: space-between;padding: 40px 0;
+}
+.main-only p{
+    font-size: 24px;padding: 20px 0;color: tan;
+}
+.main-only p span{
+    font-size: 16px;
+}
+.main-only-1>img{
+    width: 1200px;
+}
+.main-only-1>div{
+    display: flex;justify-content: space-between;padding: 20px 0;font-weight: 200;line-height: 24px;
+}
+.main-only-1 dl dt img{
+    width: 263px;height: 230px;
+}
+.main-only-1 dl dd span{
+    line-height: 12px;border-radius: 5px;padding:0 4px;margin: 0 4px;display: inline-block;border: 1px solid pink;font-size: 12px;padding: 2px;color: pink;
+}
+.main-only-1 dl dd:nth-of-type(2){
+    font-size: 14px;color: darkgray;
+}
+main-only-1 dl div.block{
+    position: absolute;
+}
+.main-only-1 dl div.hidden{
+    height: 96px;position: absolute;bottom: -96px;background-color: white;
+}
+.main-only-1 dl div.hidden dd.w1 span{
+    width: 40px;
+}
+.main-only-1 dl div{
+    width: 100%;
+}
+.main-only-1 dl{
+    height: 334px;overflow: hidden;position: relative;
+}
+.main-only-1 dl dd:nth-of-type(4){
+    font-size: 12px;color: pink;
+}
+.main-only-1 dl dd:nth-of-type(4) .INgouwuche{
+    background-color: saddlebrown;padding:2px 8px;border-radius: 0;float: right;cursor: pointer;
+}
+.main-only-6 span:nth-of-type(2){
+    float: right;cursor: pointer;
+}
+.main-only-6 div{
+    display: flex;justify-content: space-between;margin-bottom: 100px;
+}
+.main-only-6 img{
+    border-radius: 10px;
+}
+.main-only-6 div dl{ 
+    box-shadow:0px 2px 2px pink;
+}
+.main-only-6 div dl dd:nth-of-type(1){
+    font-size: 24px;padding: 20px;cursor: pointer;
+}
+.main-only-6 div dl dd:nth-of-type(2){
+    color: pink;padding: 0 20px;cursor: pointer;
+}
+footer{
+    background:url(../images/30.jpg);height: 450px;font-size: 12px;
+}
+.footer-top{
+    color: whitesmoke;margin:0 auto;width: 1300px;height: 360px;padding-top: 50px;display: flex;justify-content: space-between;
+}
+.footer-bottom{
+    text-align: center;margin:0 auto;height: 39px;border-top: 1px solid white;line-height: 39px;color: whitesmoke;
+}
+.footer-light{
+    width: 200px;
+}
+#f2 .footer-light{
+    width: 400px;margin: 0;
+}
+.footer-col-brand{
+    line-height: 20px;
+}
+.footer-col-brand>p{
+    font-size: 14px;color: white;padding-bottom: 30px;
+}
+.footer-col-brand a{
+    margin-bottom: 5px;display: inline-block;position: relative;top:-20px;
+}
+a{
+    cursor: pointer;
+}
+.footer-col p:first-of-type{
+    margin-bottom: 20px;
+}
+.footer-col-nav a{
+    line-height: 24px;
+}

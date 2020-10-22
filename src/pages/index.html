@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/cake.css">
+    <!-- <link rel="stylesheet" href="../lib/swiper-5.4.5/package/css/swiper.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="../font/iconfont.css">
+    <script src="../lib/jQuery/jquery.min.js"></script>
+    <!-- <script src="../lib/swiper-5.4.5/package/js/swiper.min.js"></script> -->
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="current nav-only">
+            <img src="../images/logo.png" alt="">
+            <ul class="nav-only-left">
+                <li>首页</li>
+                <li><a href="./cakedetail.html">蛋糕详情页</a></li>
+                <li>面包</li>
+                <li>冰淇淋</li>
+                <li><a href="./details.html">（详情页加data.json）</a></li>
+                <li>全国送</li>
+                <li><a href="./timerout.html">限时抢购</a></li>
+            </ul>
+            <ul class="nav-only-right">
+                <li>
+                    APP下载
+                    <span class="nav-only-right-first-span"><img src="../images/xiazaiapp.png" alt=""></span>
+                </li>
+                <li class="location"><span>深圳</span>
+                    <span class="iconfont down">&#xe665;</span>
+                    <ol>
+                        <li>中国大陆</li>
+                        <li>香港</li>
+                        <li>宜春</li>
+                        <li>南昌</li>
+                        <li>中国大陆</li>
+                        <li>上海</li>
+                        <li>北京</li>
+                    </ol>
+                </li>
+                <li id="uname">
+                    <a href="../pages/login.html">登录</a>/<a href="../pages/zhuce.html">注册</a>
+                    <!-- <span>asdj</span>
+                    <ol class="loginout">
+                        <li>deng</li>
+                    </ol> -->
+                </li>
+                <li class="mes">
+                    <span>消息</span>
+                    <ol>
+                        <li><a href="#">添加</a></li>
+                        <li><a href="#">物流</a></li>
+                    </ol>
+                </li>
+                <li><a href="#" id="gowu" class="iconfont gouwuche">&#xe610;</a><span  class="gouwunum" style="display: block;width: 10px;height: 10px;font-size: 5px;border-radius: 50%;border: 1px solid pink;line-height: 10px;text-align: center;background-color: burlywood;position: absolute;top: 40%;left: 18px;z-index: 1;color: black;"></span></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="banner">
+        <div>
+           <span class="span"></span>
+           <span class="span"></span>
+           <span class="span"></span>
+        </div>
+    </section>
+    <main>
+        <div class="current main-only">
+            <article>
+                <img src="../images/4.jpg" alt="">
+                <img src="../images/6.png" alt="">
+                <img src="../images/7.jpg" alt="">
+                <img src="../images/9.jpg" alt="">
+                <img src="../images/8.jpg" alt="">
+            </article>
+            <div class="main-only-1">
+                <p>新品&nbsp<span>/专区</span></p>
+                <img src="../images/11.jpg" alt="">
+                <div>
+                    <dl>
+                        <dt><img src="../images/10.png" alt=""></dt>
+                        <div class="main-only-1-1">
+                            <div class="block">
+                                <dd>鳗神</dd>
+                                <dd>树枝状的奶油</dd>
+                                <dd><span>儿童></span><span>儿童儿童></span></dd>
+                                <dd>￥<i class="i">199</i>（几百人名币)<span class="INgouwuche">加入购物车</span></dd>
+                            </div>
+                            <div class="hidden" style="background-color: white;color: brown; font-size: 12px;">
+                                <dd style="font-size: 16px;">鳗神(100多少克)</dd>
+                                <dd class="w1"><span style="color: brown;">￥<i class="i">199</i>（几百币)</span><span style="color: brown;">￥<i class="i">199</i>（几百)></span><span style="color: brown;">￥<i class="i">199</i>（几百币)</span><span style="color: brown;">￥<i class="i">199</i>（几百币)</span></dd>
+                                <dd><span style="color: brown;width: 100px;border: 1px solid blanchedalmond;text-align: center;">购买</span><span class="INgouwuche" style="color: brown;width: 100px;border: 1px solid blanchedalmond;text-align: center;">加入购物车</span></dd>
+                            </div>
+                        </div>
+                        
+
+                    </dl>
+                    <dl>
+                        <dt><img src="../images/11.png" alt=""></dt>
+                        <div class="main-only-1-1">
+                            <div class="block">
+                                <dd>䇺落</dd>
+                                <dd>树酱汁半奶</dd>
+                                <dd><span>儿童></span><span>儿童儿童></span></dd>
+                                <dd>￥<i class="i">199</i>（几百人名币)<span class="INgouwuche">加入购物车</span></dd>
+                            </div>
+                            <div class="hidden" style="background-color: white;color: brown; font-size: 12px;">
+                                <dd style="font-size: 16px;">䇺落(100多少克)</dd>
+                                <dd class="w1"><span style="color: brown;">￥<i class="i">199</i>（几百币)</span><span style="color: brown;">￥<i class="i">199</i>（几百)></span><span style="color: brown;">￥<i class="i">199</i>（几百币)</span><span style="color: brown;">￥<i class="i">199</i>（几百币)</span></dd>
+                                <dd><span style="color: brown;width: 100px;border: 1px solid blanchedalmond;text-align: center;">购买</span><span class="INgouwuche" style="color: brown;width: 100px;border: 1px solid blanchedalmond;text-align: center;">加入购物车</span></dd>
+                            </div>
+                        </div>
+                        
+                    </dl>
+                    <dl>
+                        <dt><img src="../images/12.png" alt=""></dt>
+                        <div class="main-only-1-1">
+                            <div class="block">
+                                <dd>【新】杰瑞</dd>
+                                <dd>树酱汁半奶</dd>
+                                <dd><span>儿童></span><span>儿童儿童></span></dd>
+                                <dd>￥<i class="i">199</i>（几百人名币)<span class="INgouwuche">加入购物车</span></dd>
+                            </div>
+                            <div class="hidden" style="background-color: white;color: brown; font-size: 12px;">
+                                <dd style="font-size: 16px;">【新】杰瑞(100多少克)</dd>
+                                <dd class="w1"><span style="color: brown;">￥<i class="i">199</i>（几百币)</span><span style="color: brown;">￥<i class="i">199</i>（几百)></span><span style="color: brown;">￥<i class="i">199</i>（几百币)</span><span style="color: brown;">￥<i class="i">199</i>（几百币)</span></dd>
+                                <dd><span style="color: brown;width: 100px;border: 1px solid blanchedalmond;text-align: center;">购买</span><span class="INgouwuche" style="color: brown;width: 100px;border: 1px solid blanchedalmond;text-align: center;">加入购物车</span></dd>
+                            </div>
+                        </div>
+                        
+                    </dl>
+                    <dl>
+                        <dt><img src="../images/13.png" alt=""></dt>
+                        <div class="main-only-1-1">
+                            <div class="block">
+                                <dd>【新】杰瑞</dd>
+                                <dd>树酱汁半奶</dd>
+                                <dd><span>儿童></span><span>儿童儿童></span></dd>
+                                <dd>￥<i class="i">199</i>（几百人名币)<span class="INgouwuche">加入购物车</span></dd>
+                            </div>
+                            <div class="hidden" style="background-color: white;color: brown; font-size: 12px;">
+                                <dd style="font-size: 16px;">【新】杰瑞(100多少克)</dd>
+                                <dd class="w1"><span style="color: brown;">￥<i class="i">199</i>（几百币)</span><span style="color: brown;">￥<i class="i">199</i>（几百)></span><span style="color: brown;">￥<i class="i">199</i>（几百币)</span><span style="color: brown;">￥<i class="i">199</i>（几百币)</span></dd>
+                                <dd><span style="color: brown;width: 100px;border: 1px solid blanchedalmond;text-align: center;">购买</span><span class="INgouwuche" style="color: brown;width: 100px;border: 1px solid blanchedalmond;text-align: center;">加入购物车</span></dd>
+                            </div>
+                        </div>
+                        
+                    </dl>
+                </div>
+            </div>
+            <div class="main-only-1">
+                <p>特价&nbsp<span>/专区</span></p>
+                <img src="../images/11.jpg" alt="">
+                <div>
+                    <dl>
+                        <dt><img src="../images/10.png" alt=""></dt>
+                        <dd>鳗神</dd>
+                        <dd>树枝状的奶油</dd>
+                        <dd><span>儿童></span><span>儿童儿童></span></dd>
+                        <dd>￥<i class="i">199</i>（几百人名币)<span class="INgouwuche">加入购物车</span></dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="../images/11.png" alt=""></dt>
+                        <dd>䇺落</dd>
+                        <dd>树酱汁半奶</dd>
+                        <dd><span>儿童></span><span>儿童儿童></span></dd>
+                        <dd>￥<i class="i">199</i>（几百人名币)<span class="INgouwuche">加入购物车</span></dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="../images/12.png" alt=""></dt>
+                        <dd>【新】杰瑞</dd>
+                        <dd>烤杰瑞</dd>
+                        <dd><span>儿童></span><span>儿童儿童></span><span>儿童></span></dd>
+                        <dd>￥<i class="i">199</i>（几百人名币)<span class="INgouwuche">加入购物车</span></dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="../images/13.png" alt=""></dt>
+                        <dd>松仁蛋奶(木糖醇)</dd>
+                        <dd>好吃的松仁蛋啊你</dd>
+                        <dd><span>儿童></span><span>儿童儿童></dd>
+                        <dd>￥<i class="i">199</i>（几百人名币)<span class="INgouwuche">加入购物车</span></dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="main-only-1">
+                <p>儿童&nbsp<span>/专区</span></p>
+                <img src="../images/11.jpg" alt="">
+                <div>
+                    <dl>
+                        <dt><img src="../images/10.png" alt=""></dt>
+                        <dd>鳗神</dd>
+                        <dd>树枝状的奶油</dd>
+                        <dd><span>儿童></span><span>儿童儿童></span></dd>
+                        <dd>￥<i class="i">199</i>（几百人名币)<span class="INgouwuche">加入购物车</span></dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="../images/11.png" alt=""></dt>
+                        <dd>䇺落</dd>
+                        <dd>树酱汁半奶</dd>
+                        <dd><span>儿童></span><span>儿童儿童></span></dd>
+                        <dd>￥<i class="i">199</i>（几百人名币)<span class="INgouwuche">加入购物车</span></dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="../images/12.png" alt=""></dt>
+                        <dd>【新】杰瑞</dd>
+                        <dd>烤杰瑞</dd>
+                        <dd><span>儿童></span><span>儿童儿童></span><span>儿童></span></dd>
+                        <dd>￥<i class="i">199</i>（几百人名币)<span class="INgouwuche">加入购物车</span></dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="../images/13.png" alt=""></dt>
+                        <dd>松仁蛋奶(木糖醇)</dd>
+                        <dd>好吃的松仁蛋啊你</dd>
+                        <dd><span>儿童></span><span>儿童儿童></dd>
+                        <dd>￥<i class="i">199</i>（几百人名币)<span class="INgouwuche">加入购物车</span></dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="main-only-1">
+                <p>生日&nbsp<span>/专区</span></p>
+                <img src="../images/11.jpg" alt="">
+                <div>
+                    <dl>
+                        <dt><img src="../images/10.png" alt=""></dt>
+                        <dd>鳗神</dd>
+                        <dd>树枝状的奶油</dd>
+                        <dd><span>儿童></span><span>儿童儿童></span></dd>
+                        <dd>￥<i class="i">199</i>（几百人名币)<span class="INgouwuche">加入购物车</span></dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="../images/11.png" alt=""></dt>
+                        <dd>䇺落</dd>
+                        <dd>树酱汁半奶</dd>
+                        <dd><span>儿童></span><span>儿童儿童></span></dd>
+                        <dd>￥<i class="i">199</i>（几百人名币)<span class="INgouwuche">加入购物车</span></dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="../images/12.png" alt=""></dt>
+                        <dd>【新】杰瑞</dd>
+                        <dd>烤杰瑞</dd>
+                        <dd><span>儿童></span><span>儿童儿童></span><span>儿童></span></dd>
+                        <dd>￥<i class="i">199</i>（几百人名币)<span class="INgouwuche">加入购物车</span></dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="../images/13.png" alt=""></dt>
+                        <dd>松仁蛋奶(木糖醇)</dd>
+                        <dd>好吃的松仁蛋啊你</dd>
+                        <dd><span>儿童></span><span>儿童儿童</span></dd>
+                        <dd>￥<i class="i">199</i>（几百人名币)<span class="INgouwuche">加入购物车</span></dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="main-only-5">
+                <p>活动们&nbsp<span>/是被吸引了吧</span></p>
+                <img src="../images/20.jpg" alt="">
+            </div>
+            <div class="main-only-6">
+                <p>甘一客&nbsp<span>/是被吸引了吧</span><span>了解更多</span></p>
+                <div>
+                    <dl>
+                        <dt><img src="../images/21.jpg" alt=""></dt>
+                        <dd>冬季刊·机博会</dd>
+                        <dd>阅读全文</dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="../images/22.jpg" alt=""></dt>
+                        <dd>冬季刊·机博会</dd>
+                        <dd>阅读全文</dd>
+                    </dl>
+                </div>
+            </div>
+            <div></div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-top">
+            <div class="footer-col footer-col-brand">
+                <img class="footer-logo" src="../images/23.png" height="36" width="96" alt="21cake"/><br>
+                <img class="footer-solgan" src=""/>
+                <p>始终为人类<br>提供优秀食物</p>
+                <a href="http://weibo.com/21cake" target="_blank">
+                    <img src="../images/24.png">
+                </a><br>
+                <a class="footer-icon" data-ewmsrc="//static.21cake.com/themes/site/img/erweima.png">
+                    <img src="../images/25.png">
+                </a><br>
+                <a class="footer-icon" data-ewmsrc="//static.21cake.com/themes/site/img/footer-erweima.png">
+                    <img src="../images/26.png">
+                </a><br>
+                <div class="footer-erweima footer"></div>
+            </div>
+            <div class="footer-col footer-col-nav">
+                <p class="footer-col-title">关于我们</p>
+                <p>联系我们</p>
+                <p class="footer-light">
+                    订购专线：400 650 2121
+                    （服务时间 08:00–22:00）；<br />
+                    企业团购热线：021-37768380；<br />
+                    客服电话：021-23099721（全国）；<br />
+                    kefu@21cake.com（邮箱）；
+                </p>
+                <a href="#">订购帮助</a><br>
+                <a href="#">企业合作</a><br>
+                <a href="#">生产经营资质</a><br>
+                <a href="#">公告专区</a><br>
+            </div>
+            <div class="footer-col footer-col-tips">
+                <p class="footer-col-title">订购时间</p>
+                <p class="footer-light">
+                    杭州/广州：提前5小时预订；<br />
+                    北京：提前6小时预订；<br />
+                    上海：提前5.5-6小时预订；<br />
+                    天津/苏州/无锡/深圳：提前8小时预订（部分偏远地区除外，当日22点以后订单，于次日8点开始审核）
+                    <span>当日蛋糕配送截止下单时间：北京/上海：16:30；杭州/广州：14:00；天津：10:30；苏州/无锡/深圳：11:00</span>
+                </p>
+            </div>
+            <div id="f2" class="footer-col footer-col-about">
+                <p class="footer-col-title">网络运营</p>
+                <p class="footer-light">
+                    网站注册公司名称: 北京廿一客食品有限公司 地址: 北京市北京经济技术开发区兴海二街5号院3号楼<br>
+                    网站运营：廿一客（上海）电子商务有限公司 地址：上海市松江区新效支路518号<br>
+                    上海廿一客食品有限公司分公司 地址：上海市松江区新效支路518号<br>
+                    杭州廿一客食品有限公司 地址：杭州市滨江区秋溢路500号<br>
+                    广州廿一客食品有限公司 地址：广州市南沙区东涌镇鱼窝头大道段   <br>   
+                    北京廿一客食品有限公司 地址：北京市北京经济技术开发区兴海二街5号院<br>
+                    深圳廿一客贸易有限公司 地址：深圳市福田区星河世纪大厦A栋1717  <br>       
+                    天津廿一客食品有限公司 地址：天津市河西区麦收大厦2-2004<br>
+                    广州廿一客食品贸易有限公司 地址：广州市南沙区东涌镇鱼窝头大道段 <br>
+                    举实（上海）食品有限公司 地址：上海市松江区新效支路518号
+                </p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            Copyright© 21Cake蛋糕官网商城 2007-2020, 版权所有 京ICP备14006254号-1 京公网安备 11030102010682号
+        </div>
+    </footer>
+</body>
+<script src="../js/header.js"></script>
+<script src="../js/banner.js"></script>
+<script>
+    window.onload=function(){
+        $(".main-only-1-1").hover(function(){
+            $(this).children(".hidden").finish().animate({
+                bottom:0,
+            },"linear")
+        },function(){
+            $(this).children(".hidden").finish().animate({
+                bottom:-96,
+            },"linear")
+        })
+
+        var gouWuNum=document.getElementsByClassName("gouwunum")[0]
+        var _li=document.getElementById("uname")
+        let cname=document.cookie.split("=")[1];
+        if(cname){
+            _li.innerHTML=`<span>${cname}</span>
+            <ol class="loginout">
+                <li >登出</li>
+            </ol>
+            `;
+            ajaxIndex("../lib/goodselect.php",`usename=${cname}`)
+            
+        }
+        var indexGouwu=document.getElementsByClassName("INgouwuche");
+        var indexJson=[];
+        var _i=document.getElementsByClassName("i");
+        for(let i=0;i<indexGouwu.length;i++){
+            indexGouwu[i].index=i
+            indexGouwu[i].onclick=function(){
+                if(cname){
+                    indexJson[this.index]=`usename=${cname}&goodname=${this.parentNode.parentNode.children[2].innerHTML}&img=${this.parentNode.parentNode.children[0].children[0].src}&sv=${_i[this.index].innerHTML}&num=1`;
+                    ajaxIndex("../lib/goodselect.php",indexJson[this.index],false)
+                    ajaxIndex("../lib/goodselect.php",`usename=${cname}`)
+
+
+                }else{
+                    location.assign("./login.html")
+                }
+            }
+        };
+        function ajaxIndex(url,json,bol=true){
+            var xhr=new XMLHttpRequest();
+            xhr.open("POST",url,bol);
+            xhr.setRequestHeader('content-type', 'application/x-www-form-urlencoded');
+            xhr.send(json);
+            xhr.onreadystatechange=function(){
+                if(xhr.responseText&&xhr.readyState == 4 && (xhr.status >= 200 && xhr.status < 300)) {
+                    gouWuNum.innerText=xhr.responseText
+                }
+            }
+        }
+    }
+       
+</script>
+</html>

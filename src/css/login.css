@@ -1,0 +1,160 @@
+*{
+    margin: 0;padding: 0;
+}
+.current{
+    margin: 0 auto;width: 1200px;
+}
+.nav-only{
+    height: 120px;
+}
+a{
+    text-decoration:none;color:#666;
+}
+li{
+    list-style: none;
+}
+nav li:hover{
+    color: brown;
+}
+nav{
+    height: 120px;background-color: white;line-height: 120px;font-size: 14px;
+}
+nav img{
+    float: left;transform: scale(0.6);transform-origin:bottom;
+}
+.nav-only-left{
+    float: left;display: flex;justify-content: space-around;width: 500px;
+}
+nav ul>li{
+    display: inline-block;position: relative;
+}
+.nav-only-right-first-span img{
+    position: absolute;top: 20px;left:-40px;width: 150px;height: 150px;display: none;
+}
+.nav-only-right{
+    float: right;display: flex;justify-content: space-around;width: 350px;
+}
+.nav-only-right .gouwuche{
+   font-size: 24px;
+}
+.nav-only-right .down{
+    padding-left: 2px;
+}
+.nav-only-right ol{
+    padding: 0;position: absolute;left: -10px;z-index: 20;overflow: hidden;top: 80px;height: 0;width: 100px;background-color: wheat;text-align: center;
+}
+.nav-only-right ol>li{
+    height: 30px;line-height: 30px;cursor: pointer;
+}
+.location{
+    width: 80px;text-align: right;
+}
+.nav-only-right .mes ol{
+    width: 50px;text-align: center;
+}
+#uname .loginout{
+    width: 50px;
+}
+#uname a:hover{
+    color: burlywood;
+}
+main{
+    background: url(../images/login-banner.jpg);height: 808px;
+}
+
+.main-only{
+    position: relative;height: 808px;
+}
+
+.main-only-1{
+    font-size: 12px;width: 388px;height: 357px;border: 1px solid burlywood;position: absolute;right: 150px;top: 100px;padding: 0 40px;box-sizing: border-box;
+}
+
+.main-only-1 p{
+    font-size: 20px;text-align: center;padding: 30px 0;color: darkgrey;
+}
+.main-only-1 p span{
+    cursor: pointer;
+}
+.main-only-1 p .spans{
+    color:black;
+}
+form{
+    position: absolute;background-color: white;
+}
+#zhang{
+    z-index: 20;
+}
+#mobile{
+    z-index: 10;
+}
+form>span{
+    display: inline-block;width: 168px;height: 36px;border: 1px solid pink;line-height: 34px;margin-left: 20px;text-align: center;background-color: #efefef;
+}
+
+.in1{
+    width: 290px;
+    padding: 0 5px;
+    height: 36px;
+    border: 1px solid #efefef;
+    border-radius: 2px;
+    outline: none;
+    color: #442818;
+    line-height: 38px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.in2{
+    width: 100px;
+    padding: 0 5px;
+    height: 36px;
+    border: 1px solid #efefef;
+    border-radius: 2px;
+    outline: none;
+    color: #442818;
+    line-height: 38px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+input[type=checkbox]{
+    margin-top: 20px;
+}
+.sub{
+    display: block;width: 300px;height: 50px;color: white;background-color:#961;font-size: 16px;border: none;margin-top: 20px;
+}
+form>a{
+    display: inline-block;float:right;margin:18px 0 0 5px;text-decoration: none;color: black;
+}
+footer{
+    background:url(../images/30.jpg);height: 450px;font-size: 12px;
+}
+.footer-top{
+    color: whitesmoke;margin:0 auto;width: 1300px;height: 360px;padding-top: 50px;display: flex;justify-content: space-between;
+}
+.footer-bottom{
+    text-align: center;margin:0 auto;height: 39px;border-top: 1px solid white;line-height: 39px;color: whitesmoke;
+}
+.footer-light{
+    width: 200px;
+}
+#f2 .footer-light{
+    width: 400px;margin: 0;
+}
+.footer-col-brand{
+    line-height: 20px;
+}
+.footer-col-brand>p{
+    font-size: 14px;color: white;padding-bottom: 30px;
+}
+.footer-col-brand a{
+    margin-bottom: 5px;display: inline-block;position: relative;top:-20px;
+}
+a{
+    cursor: pointer;
+}
+.footer-col p:first-of-type{
+    margin-bottom: 20px;
+}
+.footer-col-nav a{
+    line-height: 24px;
+}
